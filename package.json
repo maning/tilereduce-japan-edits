@@ -1,0 +1,22 @@
+{
+  "name": "tilereduce-japan-edits",
+  "version": "0.0.1",
+  "description": "tile reduce processor to extract highways and timestamp ",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maning/tilereduce-japan-edits.git"
+  },
+  "keywords": [
+    "tilereduce"
+  ],
+  "author": "Maning Sambale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maning/tilereduce-japan-edits/issues"
+  },
+  "homepage": "https://github.com/maning/tilereduce-japan-edits#readme"
+}
