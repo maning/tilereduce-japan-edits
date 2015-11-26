@@ -8,10 +8,9 @@ var numFeatures = 0;
 var highwayFeatures = turf.featurecollection([]);
 console.log('{"type":"FeatureCollection","features":[');
 tileReduce({
-//    bbox: [138.691,34.8138,140.977,36.315],
-    zoom: 12,
+    zoom: 15,
     map: path.join(__dirname, '/edits.js'),
-    sources: [{name: 'japan', mbtiles: path.join(__dirname, 'japan_z12.mbtiles'), raw: false}]
+    sources: [{name: 'japan', mbtiles: path.join(__dirname, 'tmp/latest.planet/japan.mbtiles'), raw: false}]
 })
     .on('reduce', function(highway) {
 	if (highway.length != 0){

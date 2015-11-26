@@ -1,2 +1,4 @@
 *.mbtiles
+*.geojson
 .DS_Store
+tmp/
