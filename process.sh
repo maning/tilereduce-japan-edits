@@ -5,7 +5,8 @@ token=  #MapboxAccessToken
 poly=japan_poly.geojson  #clipping polygon
 out=output.gejson #geojeson output from tile-reduce process
 
-mkdir tmp
+#mkdir /data/tmp
+cd /data
 
 # Get the latest OSM-QA tiles
 wget https://s3.amazonaws.com/mapbox/osm-qa-tiles/latest.planet.mbtiles.gz
