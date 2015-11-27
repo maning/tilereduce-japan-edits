@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/maning/tilereduce-japan-edits/issues"
   },
-  "homepage": "https://github.com/maning/tilereduce-japan-edits#readme"
+  "homepage": "https://github.com/maning/tilereduce-japan-edits#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "tile-reduce": "^3.0.1",
+    "turf": "^2.0.2"
+  }
 }
